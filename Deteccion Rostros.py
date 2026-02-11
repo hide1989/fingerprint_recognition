@@ -4,8 +4,7 @@ import cv2
 ch = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 #cargar la imagen
-#imgOriginal = cv2.imread("imagenes/Fray y Yeny.png")
-imgOriginal = cv2.imread("imagenes/Fray y Belgica.png")
+imgOriginal = cv2.imread("imagenes/Fray y Yeny.png")
 #convertir a grises
 imgGrises = cv2.cvtColor(imgOriginal, cv2.COLOR_BGR2GRAY)
 
